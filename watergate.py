@@ -152,11 +152,8 @@ def main():
 
     # json = make_json(quotes, BOOK)
 
-    reddit = praw.Reddit(client_id='pf9tH_1vMUBdtA',
-                        client_secret='YKvb2khEZg4GHIkzn6T2O3YSi5I',
-                        password='Haldemandidit1972X_*^^',
-                        user_agent="(script) - WatergateBot - Delivers watergate quotes 1.0 - by /u/Glorfindel212",
-                        username='WatergateBot')
+#identification intel found in another file : reddit.id.bots (for security)
+#This is a test for commiting.
 
     subreddit = reddit.subreddit(SUBNAME)
     for comment in subreddit.stream.comments():
