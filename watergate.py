@@ -153,7 +153,7 @@ def main():
     # json = make_json(quotes, BOOK)
 
 #identification intel found in another file : reddit.id.bots (for security)
-#This is a test for commiting.
+#This is a test for commiting. New test
 
     subreddit = reddit.subreddit(SUBNAME)
     for comment in subreddit.stream.comments():
